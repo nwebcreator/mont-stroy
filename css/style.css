@@ -7,9 +7,9 @@ body {
     font-size: 13px;
     line-height: 18px;
     color: #303030;
-  }
-  
-  .visually-hidden {
+}
+
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -18,11 +18,83 @@ body {
     overflow: hidden;
     border: 0 none;
     clip-path: inset(100%);
-  }
-  
-  .container {
+}
+
+.container {
     width: 1170px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-  }
+}
+
+/* header */
+.main-header {
+    padding: 20px 0 15px 0;
+    background-color: #fbfbfb;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.main-header-phone {
+    margin-left: auto;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.site-navigation {
+    padding: 0 0 10px 0;
+    margin: 0;
+    margin-left: 58px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.site-navigation-item {
+    margin-right: 20px;
+}
+
+.site-navigation-link {
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #707070;
+}
+
+.site-navigation-link:hover {
+    color: #000000;
+}
+
+.main-header-callback {
+    padding: 10px 20px;
+    margin-left: 25px;
+    min-width: 150px;
+
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    background-color: #00ffd7;
+}
+
+.section-title {
+    margin: 0;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 1.6px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #000000;
+}
