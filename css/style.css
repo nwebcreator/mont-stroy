@@ -98,3 +98,125 @@ body {
     text-transform: uppercase;
     color: #000000;
 }
+
+/* promo section */
+.promo {
+    padding-top: 150px;
+    padding-bottom: 85px;
+    background-image: url("../img/promo-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.promo-title {
+    margin: 0 0 25px 0;
+    font-size: 72px;
+    line-height: 85px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #fffffe;
+}
+
+.promo-text {
+    margin: 0;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 500;
+    color: #fffffe;
+}
+
+.promo-link-wrapper {
+    display: flex;
+    padding-top: 55px;
+    padding-bottom: 120px;
+}
+
+.aqua-link {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    background-color: #00ffd7;
+    padding: 15px 20px;
+    min-width: 260px;
+    margin-right: 20px;
+}
+
+.border-aqua-link {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #00ffd7;
+    padding: 15px 20px;
+    min-width: 258px;
+}
+
+.features {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.features-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.6;
+    width: 200px;
+    margin-bottom: 100px;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.features-item:nth-child(2n) {
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.features-item::before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    background-image: url("../img/like.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features-item:nth-child(2)::before {
+    background-image: url("../img/services.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features-item:nth-child(3)::before {
+    background-image: url("../img/handshake.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features-item:nth-child(4)::before {
+    background-image: url("../img/russia.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features-item:nth-child(5)::before {
+    background-image: url("../img/settings.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
