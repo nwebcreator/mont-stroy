@@ -426,14 +426,11 @@ body {
     margin: 0;
     list-style: none;
     display: flex;
-
     margin-right: -40px;
-
     transition: .2s;
 }
 
 .partners-item {
-
     min-width: 270;
 }
 
