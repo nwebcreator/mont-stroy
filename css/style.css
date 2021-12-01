@@ -411,17 +411,30 @@ body {
     background-repeat: no-repeat;
 }
 
+.slider-wrapper {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.slider-container {
+    overflow: hidden;
+    margin-right: -40px;
+}
+
 .partners-list {
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    margin-right: -30px;
+
+    margin-right: -40px;
+
+    transition: .2s;
 }
 
 .partners-item {
-    margin-right: 30px;
+
+    min-width: 270;
 }
 
 /* footer */
