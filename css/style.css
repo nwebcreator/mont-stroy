@@ -110,9 +110,8 @@ body {
 
 .main-header-callback:hover {
     color: #000000;
-    transition: 0,9s; /* Время эффекта */
     transform: scale(1.1);
-    /* Увеличиваем масштаб */
+    transition: all 400ms ease-in-out;
 }
 
 .section-title {
