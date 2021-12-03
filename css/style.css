@@ -54,7 +54,7 @@ body {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 420px;
 }
 
 .site-navigation-item {
@@ -62,24 +62,43 @@ body {
 }
 
 .site-navigation-link {
-    font-size: 10px;
+    position: relative;
+    font-size: 11px;
     line-height: 20px;
     font-weight: 500;
     letter-spacing: 0.7px;
     text-transform: uppercase;
     text-decoration: none;
     color: #707070;
+	cursor: pointer;
+	line-height: 1;
 }
 
 .site-navigation-link:hover {
     color: #000000;
 }
 
+.site-navigation-link:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #00ffd7;
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.site-navigation-link:hover:after,
+.site-navigation-link:focus:after {
+	width: 100%;
+}
+
+
 .main-header-callback {
     padding: 10px 20px;
     margin-left: 25px;
     min-width: 150px;
-
     text-align: center;
     font-size: 16px;
     line-height: 24px;
@@ -87,6 +106,13 @@ body {
     color: #000000;
     text-decoration: none;
     background-color: #00ffd7;
+}
+
+.main-header-callback:hover {
+    color: #000000;
+    transition: 0,9s; /* Время эффекта */
+    transform: scale(1.1);
+    /* Увеличиваем масштаб */
 }
 
 .section-title {
